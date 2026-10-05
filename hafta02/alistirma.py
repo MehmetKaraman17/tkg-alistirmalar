@@ -36,13 +36,12 @@ def harf_say(metin, harf):
 # n! = 1 * 2 * 3 * ... * n değerini bir döngüyle hesaplayın. 0! = 1'dir.
 # Örnek: faktoriyel(5) -> 120
 def faktoriyel(n):
-     sonuc = 1
+    sonuc = 1
 
     for i in range(1, n + 1):
         sonuc = sonuc * i
 
     return sonuc
-
 
 # 5. Geçenler
 # Nottan 60 ve üzeri olanları, sıralarını bozmadan yeni bir liste olarak döndürün.
