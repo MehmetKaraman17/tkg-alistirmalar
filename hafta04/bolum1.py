@@ -59,7 +59,7 @@ def en_uzun_kelime(cumle):
     return en_uzun
 
 
-# 5. En düşük not (DÜZELTİLDİ)
+
 # - Listedeki en küçük notu döndürür.
 # - Liste boşsa None döndürür.
 def en_dusuk_not(notlar):
@@ -72,7 +72,7 @@ def en_dusuk_not(notlar):
     return en_dusuk
 
 
-# 6. 1'den n'ye kadar toplam (DÜZELTİLDİ)
+ 
 # - 1 + 2 + ... + n toplamını döndürür. n 0 ise 0 döndürür.
 # Örnek: toplam(5) -> 15
 def toplam(n):
