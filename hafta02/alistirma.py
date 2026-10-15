@@ -51,4 +51,4 @@ def gecenler(notlar):
     for not_ in notlar:
         if not_ >= 60:
             gecen_notlar.append(not_)
-      return gecen_notlar
+    return gecen_notlar
